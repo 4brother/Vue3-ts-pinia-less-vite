@@ -1,0 +1,17 @@
+import { createApp } from 'vue';
+import App from './App.vue';
+import routers from './router';
+import '@ant-design-vue/pro-layout/dist/style.css';
+import 'ant-design-vue/es/notification/style/css.js';
+import 'ant-design-vue/es/popconfirm/style/css.js';
+import 'ant-design-vue/es/message/style/css.js';
+import 'ant-design-vue/es/modal/style/index.css';
+import './global.less';
+import ProLayout from '@ant-design-vue/pro-layout';
+import { createPinia } from 'pinia';
+const app = createApp(App);
+const pinia = createPinia();
+app.use(routers);
+app.use(pinia);
+app.use(ProLayout);
+app.mount('#app');
