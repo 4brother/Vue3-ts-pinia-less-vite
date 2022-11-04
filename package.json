@@ -16,7 +16,8 @@
     "moment": "^2.29.3",
     "pinia": "^2.0.18",
     "vue": "^3.2.36",
-    "vue-router": "^4.0.15"
+    "vue-router": "^4.0.15",
+    "vuedraggable": "^4.0.1"
   },
   "devDependencies": {
     "@tencent/eslint-config-tencent": "^1.0.4",
