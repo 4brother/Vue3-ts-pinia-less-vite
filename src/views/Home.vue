@@ -1,7 +1,7 @@
 <template>
   <div>home</div>
   <h2>{{ getStr }}</h2>
-  <a-button type="primary">12312312312321313</a-button>
+  <a-button type="primary">666</a-button>
   <a-button>Default Button</a-button>
   <a-button type="dashed">Dashed Button</a-button>
   <a-button type="text">Text Button</a-button>
